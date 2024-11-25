@@ -1,5 +1,5 @@
-const Notice = require("../models/studmod");
-const Admin = require("../models/adminmod");
+const Notice = require("../models/studmod.js");
+const Admin = require("../models/adminmod.js");
 
 exports.getAllNotices = async (req, res) => {
   try {
